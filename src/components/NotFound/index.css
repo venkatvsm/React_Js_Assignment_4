@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.NotFound_Container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+  background-size: cover;
+  height: 100vh;
+  font-family: 'Bree Serif';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.NotFound_heading {
+  font-weight: 500;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .NotFound_Container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  }
+}

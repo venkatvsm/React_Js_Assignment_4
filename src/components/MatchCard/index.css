@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.MatchCard_Container {
+  list-style-type: none;
+  background-color: black;
+  margin-right: 10px;
+  margin-left: 5px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  width: 250px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .MatchCard_Container {
+    font-size: 22px;
+    width: 320px;
+    height: 430px;
+    margin-bottom: 20px;
+  }
+}
+.MatchCard_image {
+  width: 70px;
+  height: 70px;
+}
+.MatchCard_competingTeam {
+  text-align: center;
+  color: #ffffff;
+  width: 200px;
+  font-weight: 600;
+}
+.MatchCard_result {
+  color: #ffffff;
+  text-align: center;
+  width: 200px;
+  font-weight: normal;
+}
+.matchWon {
+  color: #18ed66;
+  font-size: 25px;
+}
+.matchLose {
+  color: #e31a1a;
+  font-size: 25px;
+}

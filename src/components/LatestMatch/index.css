@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.latestMatch_Details_container {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.latestMatch_container {
+  padding: 0px;
+}
+.latestMatch_Details_logo {
+  width: 60px;
+}
+.latestMatch_competingTeam {
+  font-size: 15px;
+  font-weight: 600;
+}
+.latestMatch_date {
+  font-size: 15px;
+  font-weight: 400;
+}
+.latestMatch_venue {
+  font-size: 15px;
+  font-weight: 400;
+}
+.latestMatch_result {
+  font-size: 15px;
+  font-weight: 400;
+}
+.latestMatch_inningsContainer {
+  padding: 15px;
+}
